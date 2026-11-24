@@ -18,30 +18,35 @@
 
 ## Install
 
-Super Herdr needs the Herdr desktop app (built and tested on **0.1.18, macOS**). Linux and Windows should work but are untested.
+Requires the Herdr desktop app 0.1.18 or newer (built and tested on macOS; Linux and Windows should work but are untested).
 
-**Easiest: ask your agent.** In any agent running inside Herdr:
+**Ask your Herdr agent** to add `herdr.dev/layouts/samarkundal/super-herdr` (or `github.com/samarkundal/super-herdr`). Herdr's own guide teaches agents to install a shared layout safely.
 
-> Install the Herdr layout from https://github.com/samarkundal/super-herdr
+**Or run the installer:**
 
-Herdr's own guide teaches agents how to install a shared layout safely (copy, rename on clashes, merge keys, check each mod).
+```sh
+git clone --depth 1 https://github.com/samarkundal/super-herdr && super-herdr/scripts/install.sh
+```
 
-**By hand:**
+It copies the layout and its `super-*` mods into `~/.config/herdr-app/`, merges [`keys.json`](keys.json) into yours (only the `layout:super-herdr` section, so **Cmd+T** opens new tabs in the project's folder while this layout is showing), and checks every mod loads. It needs `jq` and `rsync`, which macOS includes.
 
-1. Quit the Herdr window (your terminals and agents keep running).
-2. Copy the files:
-   ```sh
-   git clone https://github.com/samarkundal/super-herdr
-   cp super-herdr/layouts/super-herdr.json ~/.config/herdr-app/layouts/
-   cp -R super-herdr/mods/super-* ~/.config/herdr-app/mods/
-   ```
-3. Add the `"layout:super-herdr"` section from [`keys.json`](keys.json) to `~/.config/herdr-app/keys.json`. It makes **Cmd+T** open new tabs in the project's folder, only while this layout is showing.
-4. Open Herdr and switch: **Ctrl+Shift+L**, or Settings → Look, or
-   ```sh
-   herdr-app do layout.switch '{"name":"super-herdr"}'
-   ```
+Then switch to it: **Ctrl+Shift+L**, Settings → Look, or `herdr-app do layout.switch '{"name":"super-herdr"}'`.
 
-To go back, switch to the **Herdr** layout. To remove it, delete `layouts/super-herdr.json`, the `mods/super-*` folders and the keys section.
+**By hand:** copy `layouts/super-herdr.json`, `layouts/super-herdr.svg` and every `mods/super-*` into `~/.config/herdr-app/`, and merge `keys.json` into yours.
+
+## Update
+
+Run the installer again from a fresh clone (or `git pull` in your clone first):
+
+```sh
+git clone --depth 1 https://github.com/samarkundal/super-herdr && super-herdr/scripts/install.sh
+```
+
+Your projects, theme, sizes and other keys stay. If you edited the layout file, your copy is kept beside it. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+
+## Uninstall
+
+Switch to the **Herdr** layout, then delete `layouts/super-herdr.json`, `layouts/super-herdr.svg`, the `mods/super-*` folders and the `"layout:super-herdr"` section of `keys.json`.
 
 ## Getting started
 

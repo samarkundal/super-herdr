@@ -4,6 +4,7 @@
     "name": "main",
     "version": "0.1.18"
   },
+  "preview": "layouts/super-herdr.svg",
   "type": "row",
   "children": [
     {

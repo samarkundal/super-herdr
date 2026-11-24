@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200">
+  <!-- Super Herdr, drawn for Settings' small layout card: the project rail, the sidebar for one project, and the work area. -->
+  <rect x="1.5" y="1.5" width="357" height="197" rx="18" fill="#1b1b22" stroke="#30303a" stroke-width="3"/>
+  <!-- rail -->
+  <path d="M40.5 3v194" stroke="#30303a" stroke-width="3"/>
+  <rect x="11" y="30" width="20" height="20" rx="6" fill="none" stroke="#e8e8ee" stroke-width="2"/>
+  <rect x="14" y="33" width="14" height="14" rx="4" fill="#5fb3b3"/>
+  <rect x="14" y="58" width="14" height="14" rx="4" fill="#d4a656"/>
+  <circle cx="29" cy="58" r="4" fill="#e5534b" stroke="#1b1b22" stroke-width="2"/>
+  <rect x="14" y="80" width="14" height="14" rx="4" fill="#7a86e0" opacity="0.4"/>
+  <rect x="16" y="176" width="10" height="10" rx="3" fill="none" stroke="#55556a" stroke-width="2"/>
+  <!-- sidebar -->
+  <path d="M136.5 3v194M138 37.5h219" stroke="#30303a" stroke-width="3"/>
+  <rect x="50" y="14" width="10" height="10" rx="3" fill="#7c5cff"/>
+  <rect x="64" y="16" width="44" height="6" rx="3" fill="#55556a"/>
+  <rect x="50" y="34" width="76" height="24" rx="6" fill="#26262f" stroke="#3a3a46" stroke-width="2"/>
+  <circle cx="58" cy="46" r="3" fill="#e5534b"/>
+  <rect x="65" y="43" width="52" height="6" rx="3" fill="#e8e8ee"/>
+  <rect x="50" y="68" width="56" height="7" rx="3" fill="#a8a8b8"/>
+  <rect x="50" y="84" width="70" height="5" rx="2.5" fill="#55556a"/>
+  <rect x="50" y="96" width="62" height="5" rx="2.5" fill="#55556a"/>
+  <rect x="50" y="108" width="66" height="5" rx="2.5" fill="#55556a"/>
+  <!-- work area -->
+  <rect x="148" y="14" width="56" height="12" rx="6" fill="#30303a"/>
+  <rect x="148" y="48" width="198" height="140" rx="10" fill="#202028" stroke="#3a3a46" stroke-width="2"/>
+  <rect x="160" y="62" width="120" height="6" rx="3" fill="#55556a"/>
+  <rect x="160" y="76" width="150" height="6" rx="3" fill="#55556a"/>
+  <rect x="160" y="90" width="96" height="6" rx="3" fill="#55556a"/>
+</svg>
