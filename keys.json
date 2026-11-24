@@ -1,0 +1,5 @@
+{
+  "layout:super-herdr": {
+    "cmd-t": "super-tabbar.new_tab"
+  }
+}

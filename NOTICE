@@ -1,0 +1,20 @@
+Super Herdr
+Copyright 2026 Samar Kundal
+
+A community layout for the Herdr desktop app. Not made by or affiliated with the Herdr team.
+
+This product includes software from Herdr (https://github.com/herdrdev/herdr-app),
+licensed under the Apache License, Version 2.0. These mods are modified copies of
+mods shipped with Herdr 0.1.18:
+
+  mods/super-chrome      from workspace-chrome  (Super Herdr name and logo, window title, header padding)
+  mods/super-explorer    from files             (sidebar mode, per-project root, project folder picker)
+  mods/super-tabbar      from tabs              (new tabs open in the project's folder; Cmd+T command)
+  mods/super-new-menu    from new-menu          (new tabs and agents open in the project's folder)
+  mods/super-menu        from menu              (tab menu "New tab" opens in the project's folder)
+
+The other mods (super-rail, super-projects, super-views, super-file-viewer) are original
+but use the Herdr mod API and follow patterns from Herdr's shipped mods.
+
+Icons in mods/ are from Lucide (https://lucide.dev), ISC License; see licenses/LICENSE-Lucide.txt.
+The Super Herdr logo (mods/super-chrome/logo.svg) is original to this project.
